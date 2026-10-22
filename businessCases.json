@@ -1,0 +1,252 @@
+{
+  "businessCases": [
+    {
+      "key": "application",
+      "description": "Used for any form of initial request, submission, or formal application initiated by a private or corporate party."
+    },
+    {
+      "key": "request",
+      "description": "Used for an official, authoritative call for action, a formal summons, or a mandatory request issued by an authority."
+    },
+    {
+      "key": "specialApplication",
+      "description": "Used for supplementary, secondary, or alternative applications within the same announcement type to prevent duplicate keys."
+    },
+    {
+      "key": "participation",
+      "description": "Used for early, informal public involvement, consultations, or feedback phases prior to formal decrees."
+    },
+    {
+      "key": "inspection",
+      "description": "Used for the formal, statutory public exposure of plans or documents where objection periods are legally triggered."
+    },
+    {
+      "key": "issuing",
+      "description": "Used for the official publication, issuance, or service of legal documents, regulations, or decrees."
+    },
+    {
+      "key": "change",
+      "description": "Used for any subsequent amendment, modification, or mutation of an existing register entry, document, or project."
+    },
+    {
+      "key": "newVersion",
+      "description": "Used when an entire process is repeated, completely revised, or a licence is generally renewed."
+    },
+    {
+      "key": "authorisation",
+      "description": "Used for the official granting of a personal or corporate licence, permit, or professional entitlement."
+    },
+    {
+      "key": "additionalAuthorisation",
+      "description": "Used for granting supplementary or auxiliary permissions tied to an existing licence."
+    },
+    {
+      "key": "confirmation",
+      "description": "Used when a provisional status, agreement, or democratic election is formally confirmed, ratified, or adopted."
+    },
+    {
+      "key": "referendum",
+      "description": "Used specifically for optional or mandatory referendum periods and related public popular vote procedures."
+    },
+    {
+      "key": "warning",
+      "description": "Used for formal administrative warnings, reminders, or default notices."
+    },
+    {
+      "key": "refusal",
+      "description": "Used when an application, permit, or legal request is formally denied or rejected by the authorities."
+    },
+    {
+      "key": "suspension",
+      "description": "Used for the temporary freezing, halting, or pausing of an active right, procedure, or professional licence."
+    },
+    {
+      "key": "revocation",
+      "description": "Used for the formal, permanent withdrawal or revocation of any granted title, operating licence, or official right."
+    },
+    {
+      "key": "withdrawal",
+      "description": "Used when a procedure or application is actively cancelled, aborted, or retracted by the initiating party."
+    },
+    {
+      "key": "failure",
+      "description": "Used when a procedural step formally fails or does not meet its legal threshold."
+    },
+    {
+      "key": "appointment",
+      "description": "Used for the official designation or assignment of individuals, bodies, administrators, or representatives."
+    },
+    {
+      "key": "objectionDecision",
+      "description": "Used specifically for administrative rulings and decisions issued regarding formal public objections."
+    },
+    {
+      "key": "appealDecision",
+      "description": "Used for judicial rulings and higher-instance decisions resulting from legal appeals."
+    },
+    {
+      "key": "approval",
+      "description": "Used when a higher authority or supervisory body formally approves or validates a decision."
+    },
+    {
+      "key": "enforcement",
+      "description": "Used for the official entry into force, enactment, or executive execution of a final regulation or measure."
+    },
+    {
+      "key": "closing",
+      "description": "Used for the regular, formal conclusion and closing of an entire administrative, judicial, or insolvency file."
+    },
+    {
+      "key": "generalNotice",
+      "description": "Used as a generic fallback key for standard public announcements or information notices without specific workflows."
+    },
+    {
+      "key": "environmentalDecision",
+      "description": "A specific administrative decree or ruling concerning environmental impact assessments within construction or spatial planning procedures."
+    },
+    {
+      "key": "purchaseChange",
+      "description": "A property registry mutation or transfer of ownership specifically triggered by a contract of purchase and sale."
+    },
+    {
+      "key": "giftChange",
+      "description": "A property registry mutation or transfer of ownership resulting from a formal deed of gift."
+    },
+    {
+      "key": "inheritanceChange",
+      "description": "A property registry mutation or transfer of ownership resulting from the division of an estate."
+    },
+    {
+      "key": "matrimonialChange",
+      "description": "A property registry mutation based on a matrimonial property agreement or divorce decree."
+    },
+    {
+      "key": "transferChange",
+      "description": "A property registry mutation representing miscellaneous forms of legal property transfers."
+    },
+    {
+      "key": "judgementChange",
+      "description": "A property registry mutation or transfer of ownership explicitly ordered by a court judgment."
+    },
+    {
+      "key": "competition",
+      "description": "A formal public design or ideas competition launched by a public authority."
+    },
+    {
+      "key": "studyCommission",
+      "description": "A selective procurement procedure involving parallel study commissions."
+    },
+    {
+      "key": "patentLoss",
+      "description": "The automatic or legal loss of a professional licence or patent due to the failure to meet ongoing criteria."
+    },
+    {
+      "key": "compositionInsolvency",
+      "description": "The official opening of bankruptcy proceedings following a failed composition moratorium or restructuring attempt."
+    },
+    {
+      "key": "inheritanceInsolvency",
+      "description": "The official opening of bankruptcy proceedings directed against a deceased person's estate."
+    },
+    {
+      "key": "disclaimedInsolvency",
+      "description": "The official opening of bankruptcy and liquidation proceedings regarding an estate that has been rejected by all legal heirs."
+    },
+    {
+      "key": "debtAuction",
+      "description": "A public auction of real estate or assets triggered by a standard debt enforcement and asset seizure procedure."
+    },
+    {
+      "key": "bankruptcyAuction",
+      "description": "A public auction of real estate or assets conducted within the framework of a formal bankruptcy liquidation."
+    },
+    {
+      "key": "courtAuction",
+      "description": "A public auction explicitly ordered by a civil court to resolve co-ownership disputes or estate divisions."
+    },
+    {
+      "key": "movablesAuction",
+      "description": "A public auction specifically dedicated to movable assets and personal property, such as vehicles, equipment, or art."
+    },
+    {
+      "key": "voluntaryAuction",
+      "description": "A public auction carried out voluntarily by the owner but executed through official authorities."
+    },
+    {
+      "key": "deficitClosing",
+      "description": "The immediate suspension or closure of bankruptcy proceedings due to a total lack of realizable assets to cover the procedural costs."
+    },
+    {
+      "key": "heirRequest",
+      "description": "A formal public notice or call issued to locate unknown or missing heirs regarding an open probate case."
+    },
+    {
+      "key": "creditorRequest",
+      "description": "A statutory public call issued to creditors to submit their financial claims within liquidation, bankruptcy, or corporate capital reduction procedures."
+    },
+    {
+      "key": "planInventoryInspection",
+      "description": "The formal public exposure and inspection period of both the schedule of claims and the asset inventory within a bankruptcy file."
+    },
+    {
+      "key": "claimsScheduleInspection",
+      "description": "The formal public inspection period dedicated exclusively to the bankruptcy schedule of claims."
+    },
+    {
+      "key": "inventoryInspection",
+      "description": "The formal public inspection period dedicated exclusively to the official asset inventory of a bankruptcy or estate case."
+    },
+    {
+      "key": "distributionAccountInspection",
+      "description": "The formal public exposure of the final distribution list and the final administrative account in a bankruptcy liquidation."
+    },
+    {
+      "key": "burdensScheduleInspection",
+      "description": "The formal public inspection period of the schedule of burdens listing encumbrances and liens on real estate."
+    },
+    {
+      "key": "compositionScheduleInspection",
+      "description": "The formal public exposure of the schedule of claims within composition proceedings involving an assignment of assets."
+    },
+    {
+      "key": "accountabilityReportInspection",
+      "description": "The formal public inspection period of the accountability or management report submitted by a liquidator or administrator."
+    },
+    {
+      "key": "finalReportInspection",
+      "description": "The formal public inspection period of the final report concluding a liquidation or bankruptcy procedure."
+    },
+    {
+      "key": "provisionalDistributionInspection",
+      "description": "The formal public exposure of a provisional or interim distribution list prior to the final distribution of assets."
+    },
+    {
+      "key": "parkingEnforcement",
+      "description": "The official entry into force or announcement of a judicial prohibition against unauthorized parking or access on private property."
+    },
+    {
+      "key": "storageEnforcement",
+      "description": "The official entry into force or announcement of a judicial prohibition against unauthorized storage or dumping on private land."
+    },
+    {
+      "key": "bankruptcyRequest",
+      "description": "A judicial summons or court order demanding a party to appear in court specifically for a bankruptcy hearing."
+    },
+    {
+      "key": "conciliationRequest",
+      "description": "A judicial summons demanding a party to appear before a civil conciliation authority or peace officer."
+    },
+    {
+      "key": "answerRequest",
+      "description": "A formal court order demanding the defendant to file a statement of defence or legal answer within a specific deadline."
+    },
+    {
+      "key": "paymentRequest",
+      "description": "A formal court order demanding a party to pay a monetary advance on court fees or procedural costs."
+    },
+    {
+      "key": "evidenceRequest",
+      "description": "A formal judicial request ordering a party or third party to produce specific documents, records, or physical evidence."
+    }
+  ]
+}

@@ -1,0 +1,908 @@
+{
+  "enumValues": [
+    {
+      "key": "addendum",
+      "description": "A technical correction or supplementary note published in relation to a prior property transfer."
+    },
+    {
+      "key": "address",
+      "description": "Register change category for a change to an entity's registered address."
+    },
+    {
+      "key": "agenda",
+      "description": "Corporate governance category for formal shareholder requests to place specific items on the meeting agenda."
+    },
+    {
+      "key": "agriculture",
+      "description": "Notices concerning farming regulations, agricultural structural updates, or rural operational directives."
+    },
+    {
+      "key": "aircraft",
+      "description": "Reference to the official aircraft register or aviation-related notices."
+    },
+    {
+      "key": "aircraftRegister",
+      "description": "Statutory entries, mutations, or official notices related to the national aviation or aircraft registry."
+    },
+    {
+      "key": "airport",
+      "description": "Infrastructure type for aviation facilities, commercial airports, or airfield projects."
+    },
+    {
+      "key": "annualAccounts",
+      "description": "Financial accounting standard representing the official corporate annual financial statements or accounting reports."
+    },
+    {
+      "key": "archivingFalse",
+      "description": "The publishing entity does not consider the announcement to be archivable."
+    },
+    {
+      "key": "archivingTrue",
+      "description": "The publishing entity considers the announcement to be archivable."
+    },
+    {
+      "key": "bearerBond",
+      "description": "Security instrument representing a bond or debt obligation payable to the bearer."
+    },
+    {
+      "key": "bearerMortgage",
+      "description": "Security instrument representing a bearer mortgage certificate or bearer mortgage debt title."
+    },
+    {
+      "key": "billCollection",
+      "description": "Debt enforcement type executed via bills of exchange, checks, or payment certificates (Wechselbetreibung)."
+    },
+    {
+      "key": "biotope",
+      "description": "Spatial zoning designation representing protected ecological biotopes and sensitive natural habitats."
+    },
+    {
+      "key": "bond",
+      "description": "Corporate finance category for notices concerning corporate bonds, interest rates, dividends, or investment distributions."
+    },
+    {
+      "key": "buying",
+      "description": "Commercial trade category for the professional purchase or buying of precious metals."
+    },
+    {
+      "key": "byElection",
+      "description": "Electoral mode defining a supplementary or by-election to fill a vacant seat."
+    },
+    {
+      "key": "cableway",
+      "description": "Infrastructure type for mountain railways, cable cars, chairlifts, or funicular transit installations."
+    },
+    {
+      "key": "cantonal",
+      "description": "Reference to the cantonal tier of government, jurisdiction, administration, or infrastructure."
+    },
+    {
+      "key": "cantonalExecutive",
+      "description": "Cantonal executive council or cabinet responsible for passing government ordinances and executing laws."
+    },
+    {
+      "key": "cantonalParliament",
+      "description": "Cantonal-level legislative parliament responsible for passing cantonal statutory laws and decrees."
+    },
+    {
+      "key": "cantonalRoad",
+      "description": "Infrastructure type for roads and road projects under cantonal jurisdiction."
+    },
+    {
+      "key": "capital",
+      "description": "Classification for announcements tracking corporate share capital increases, reductions, or structural shifts."
+    },
+    {
+      "key": "church",
+      "description": "Reference to ecclesiastical authorities, church parishes, or religious public-law entities."
+    },
+    {
+      "key": "churchAffairs",
+      "description": "General, non-statutory informational notices or announcements published by ecclesiastical authorities and land churches."
+    },
+    {
+      "key": "churchCouncil",
+      "description": "Executive ecclesiastical body or parish council governing the local church community and operations."
+    },
+    {
+      "key": "churchExecutive",
+      "description": "Executive church council or parish council board responsible for enacting administrative church decrees."
+    },
+    {
+      "key": "churchSynod",
+      "description": "Legislative parliament of a public-law land church responsible for passing church ordinances and constitutions."
+    },
+    {
+      "key": "civilProtection",
+      "description": "Announcements regarding civil protection, emergency management, disaster relief, or civil defense structures."
+    },
+    {
+      "key": "collectiveResponsibilityMark",
+      "description": "A collective responsibility mark utilized by trade associations or trade groups under precious metals laws."
+    },
+    {
+      "key": "commercialAssayer",
+      "description": "Licensing category for officially recognized independent commercial assayers of precious metals."
+    },
+    {
+      "key": "commercialAssayerMark",
+      "description": "Precious metals hallmark standard identifying the official mark used by commercial assayers."
+    },
+    {
+      "key": "commercialService",
+      "description": "General publications regarding commercial services, business registrations, or general service sectors."
+    },
+    {
+      "key": "committee",
+      "description": "Parliamentary working group or special committee tasked with evaluating specific legislative matters prior to debate."
+    },
+    {
+      "key": "commodity",
+      "description": "Announcements concerning food safety, consumer goods regulations, and public health market controls."
+    },
+    {
+      "key": "competition",
+      "description": "Classification for market regulations, fair trade compliance, or competitive procurement procedures."
+    },
+    {
+      "key": "compositeContinuousOperation",
+      "description": "Labour law permit for complex, continuous operating schedules combining multiple shifts and operational frameworks."
+    },
+    {
+      "key": "compositeContinuousOperationNoDayWorkSwitch",
+      "description": "Labour law permit for composite continuous operations specifically executing shifts without alternating back to standard daytime hours."
+    },
+    {
+      "key": "concession",
+      "description": "Legal entitlement category for formal state concessions or public sovereignty rights."
+    },
+    {
+      "key": "consolidatedAccounts",
+      "description": "Financial accounting standard representing group-wide consolidated financial statements."
+    },
+    {
+      "key": "construction",
+      "description": "Procurement classification tracking public works, construction tenders, and physical infrastructural building tasks."
+    },
+    {
+      "key": "continuousOperation",
+      "description": "Labour law permit for standard, uninterrupted 24/7 continuous company operations."
+    },
+    {
+      "key": "contract",
+      "description": "Classification for fundamental modifications, approvals, or structural transformations regarding a collective fund contract."
+    },
+    {
+      "key": "contractsAndStatutes",
+      "description": "Public notice of intermunicipal agreements, concordats, bylaws, or organizational statutes of public-law entities and corporate associations."
+    },
+    {
+      "key": "corporation",
+      "description": "Public-law corporation, special-purpose community entity, or intermunicipal corporate alliance."
+    },
+    {
+      "key": "credit",
+      "description": "Business category representing consumer credit mediation, loan agencies, and financial brokerage firms."
+    },
+    {
+      "key": "debtCall",
+      "description": "Corporate or insolvency notification issuing a formal call to creditors to submit outstanding financial claims."
+    },
+    {
+      "key": "deforestation",
+      "description": "Regulatory classification for the permanent clearing or removal of forested areas."
+    },
+    {
+      "key": "delegates",
+      "description": "Corporate assembly type representing a formal meeting of delegates (Delegiertenversammlung)."
+    },
+    {
+      "key": "delivery",
+      "description": "Procedural type for the official service or delivery of documents without a specific statutory deadline."
+    },
+    {
+      "key": "department",
+      "description": "An executive department, ministerial directorate, or administrative agency authorized to issue regulations."
+    },
+    {
+      "key": "designPlan",
+      "description": "A specific spatial development or architectural design master plan."
+    },
+    {
+      "key": "districtPlan",
+      "description": "A localized neighbourhood or quarter development plan."
+    },
+    {
+      "key": "education",
+      "description": "Announcements from schools, educational boards, or cantonal departments regarding public schooling, curricula, or exams."
+    },
+    {
+      "key": "electorate",
+      "description": "The sovereign body of registered citizens casting their votes directly via the ballot box or polling stations."
+    },
+    {
+      "key": "energy",
+      "description": "Infrastructure and usage type regarding high-voltage power lines, electrical grid installations, and energy transport utilities."
+    },
+    {
+      "key": "entertainment",
+      "description": "Regulatory business branch category for public entertainment industries, night-time venues, and travelling showmen/fairgrounds."
+    },
+    {
+      "key": "exceptionHolidayWorkYouth",
+      "description": "Exceptional labour law permit granting public holiday work allowances specifically for employed minors/youths."
+    },
+    {
+      "key": "exceptionProfessionalTheatre",
+      "description": "Special labour law exemption category granting work hour allowances specifically for professional theatres and performing arts."
+    },
+    {
+      "key": "extractionPermit",
+      "description": "A formal regulatory permit granting rights for mining, quarrying, or raw material extraction."
+    },
+    {
+      "key": "extraordinary",
+      "description": "Corporate assembly type representing an extraordinary general meeting of shareholders."
+    },
+    {
+      "key": "first",
+      "description": "Procedural sequence value representing the first publication."
+    },
+    {
+      "key": "forestZone",
+      "description": "Spatial zoning designation specifically representing protected or regulated woodlands and forests."
+    },
+    {
+      "key": "foundation",
+      "description": "Classification for company formations, corporate establishment acts, and initial article-of-association publications."
+    },
+    {
+      "key": "gas",
+      "description": "Infrastructure type for high-pressure gas transport pipelines and related grid utility assets."
+    },
+    {
+      "key": "general",
+      "description": "General change category used when a register change is not limited to a more specific change type."
+    },
+    {
+      "key": "generalAdministration",
+      "description": "Miscellaneous unilateral administrative orders and sovereign executive decrees that do not fall under safety, health, or environment."
+    },
+    {
+      "key": "generalElection",
+      "description": "Electoral mode defining a regular, full-scale general renewal election for a parliament or executive body."
+    },
+    {
+      "key": "gift",
+      "description": "Property transfer executed as a voluntary, unentgeltliche conveyance or gift."
+    },
+    {
+      "key": "government",
+      "description": "Overarching executive branch or cabinet managing public affairs at the cantonal or federal level."
+    },
+    {
+      "key": "health",
+      "description": "Administrative enforcement measures, quarantine regulations, or local safety orders regarding human or animal health defense."
+    },
+    {
+      "key": "holidayWork",
+      "description": "Labour law permit authorizing standard employment operations during official public holidays."
+    },
+    {
+      "key": "hospitality",
+      "description": "Regulatory business branch category for hotels, restaurants, bars, and the public catering industry (Gastgewerbe)."
+    },
+    {
+      "key": "hunting",
+      "description": "Classification for hunting, fishing, wildlife management, and related environmental quotas."
+    },
+    {
+      "key": "hydraulicEngineering",
+      "description": "Spatial or infrastructural project plan dedicated to hydraulic engineering and flood protection."
+    },
+    {
+      "key": "hydroPower",
+      "description": "Infrastructure and usage type dedicated specifically to hydroelectric power generation and water rights concessions."
+    },
+    {
+      "key": "improvement",
+      "description": "Land consolidation, agricultural structural improvement, or rural melioration proceedings."
+    },
+    {
+      "key": "inauguration",
+      "description": "Official public notice regarding the formal inauguration, investiture, or swearing-in of an elected officer or magistrate."
+    },
+    {
+      "key": "individualMeltersMark",
+      "description": "Precious metals hallmark identifying an individual melter's officially registered stamp."
+    },
+    {
+      "key": "individualMelting",
+      "description": "Licensing category for an individual or single-entity precious metals melting permit."
+    },
+    {
+      "key": "infrastructure",
+      "description": "Administrative emergency decrees regarding critical infrastructure, public energy networks, or regional utility shortages."
+    },
+    {
+      "key": "inheritance",
+      "description": "Property transfer resulting from the formal liquidation or division of a deceased person's estate."
+    },
+    {
+      "key": "inheritanceToState",
+      "description": "Inheritance outcome in which the estate devolves to the state."
+    },
+    {
+      "key": "initiative",
+      "description": "A popular initiative launched by citizens to propose a new law, constitutional amendment, or municipal regulation."
+    },
+    {
+      "key": "insolvencyDiscontinuation",
+      "description": "Corporate register status indicating that bankruptcy proceedings were officially discontinued due to a lack of realizable assets."
+    },
+    {
+      "key": "insolvencyDismissal",
+      "description": "Corporate register status indicating that the opened bankruptcy proceedings were officially dismissed or annulled."
+    },
+    {
+      "key": "insolvencyOnset",
+      "description": "Corporate register status tracking the formal judicial opening and onset of active bankruptcy proceedings."
+    },
+    {
+      "key": "insolvencyRevocation",
+      "description": "Corporate register status indicating that the judicial decree opening the bankruptcy was officially revoked."
+    },
+    {
+      "key": "inspection",
+      "description": "Procedural type granting formal public access, viewing, or inspection of records and files."
+    },
+    {
+      "key": "intellectualProperty",
+      "description": "Notices regarding patents, trademarks, copyrights, and registrations of intellectual property rights."
+    },
+    {
+      "key": "intercantonal",
+      "description": "Joint public-law bodies or treaties operating across multiple cantons."
+    },
+    {
+      "key": "interimReport",
+      "description": "Financial accounting standard representing corporate interim, semi-annual, or quarterly financial reports."
+    },
+    {
+      "key": "invitation",
+      "description": "Insolvency procedure mode indicating that a formal invitation is issued to the meeting of creditors."
+    },
+    {
+      "key": "irrigation",
+      "description": "Water usage category dedicated specifically to agricultural irrigation systems and water withdrawal."
+    },
+    {
+      "key": "jobPosting",
+      "description": "Public notice detailing an official employment vacancy or public sector job advertisement."
+    },
+    {
+      "key": "judgement",
+      "description": "Property transfer explicitly ordered or enforced by a formal civil or administrative court decree."
+    },
+    {
+      "key": "landUsePlan",
+      "description": "The primary statutory municipal zoning or general land-use layout plan."
+    },
+    {
+      "key": "legalForm",
+      "description": "Register change category for a change to an entity's legal form."
+    },
+    {
+      "key": "licenceB",
+      "description": "Residence status representing a Swiss residence permit (Permit B)."
+    },
+    {
+      "key": "licenceC",
+      "description": "Residence status representing a Swiss settlement permit (Permit C)."
+    },
+    {
+      "key": "licenceEfta",
+      "description": "Residence status representing a Swiss EU/EFTA residence permit (Permit B EU/EFTA)."
+    },
+    {
+      "key": "licenceF",
+      "description": "Residence status representing provisional admission in Switzerland (Permit F)."
+    },
+    {
+      "key": "licenceL",
+      "description": "Residence status representing a Swiss short-term residence permit (Permit L)."
+    },
+    {
+      "key": "liquidation",
+      "description": "Classification for the formal winding-up, corporate liquidation, or asset segregation of investment funds and companies."
+    },
+    {
+      "key": "liquidationOnset",
+      "description": "Corporate register status tracking the formal entry of a company into liquidation proceedings."
+    },
+    {
+      "key": "liquidationRevocation",
+      "description": "Register status category used following the revocation of a liquidation."
+    },
+    {
+      "key": "majorityVote",
+      "description": "Electoral system based on the majority voting method (Majorz)."
+    },
+    {
+      "key": "marketRegulation",
+      "description": "Publications regarding fair trade compliance, anti-monopoly rulings, and official market supervision."
+    },
+    {
+      "key": "matrimonial",
+      "description": "Property transfer based on a marital property agreement or divorce settlement."
+    },
+    {
+      "key": "meltersMark",
+      "description": "Standard precious metals hallmark identifying a licensed melter's official stamp."
+    },
+    {
+      "key": "melting",
+      "description": "Licensing category for standard commercial precious metals melting operations."
+    },
+    {
+      "key": "mortgageRealization",
+      "description": "Debt enforcement procedure executed specifically via the realization of real estate collateral/mortgages (Grundpfand)."
+    },
+    {
+      "key": "municipal",
+      "description": "Reference to the local municipal or communal tier of government, administration, or local zoning."
+    },
+    {
+      "key": "municipalAssembly",
+      "description": "The local democratic assembly of citizens gathered in person to vote on communal regulations and budgets."
+    },
+    {
+      "key": "municipalCouncil",
+      "description": "Executive administrative steering committee or local town council managing a political municipality."
+    },
+    {
+      "key": "municipalExecutive",
+      "description": "Municipal executive steering committee or town council responsible for enacting communal executive ordinances."
+    },
+    {
+      "key": "municipalParliament",
+      "description": "Local-level legislative parliament acting as the municipal council for cities or larger communes."
+    },
+    {
+      "key": "name",
+      "description": "Register change category for a change to an entity's name or company name."
+    },
+    {
+      "key": "national",
+      "description": "Reference to the federal tier of government, nationwide infrastructure, or national legislation."
+    },
+    {
+      "key": "nationalRoad",
+      "description": "Infrastructure type for national or federal roads and motorway infrastructure."
+    },
+    {
+      "key": "nature",
+      "description": "Regional ecological decrees, local water restriction orders during droughts, or immediate habitat protection directives."
+    },
+    {
+      "key": "nightHolidayWork",
+      "description": "Labour law permit authorizing combined night-shift work and public holiday employment."
+    },
+    {
+      "key": "nightHolidayWorkYouth",
+      "description": "Special labour law permit authorizing night and public holiday work explicitly for employed minors/youths."
+    },
+    {
+      "key": "nightNoDayWorkSwitchHolidayWork",
+      "description": "Labour law permit for permanent night shifts on public holidays without alternating back to daytime hours."
+    },
+    {
+      "key": "nightNoDayWorkSwitchSundayHolidayWork",
+      "description": "Advanced labour law permit for permanent night employment on Sundays and public holidays without shifting to day work."
+    },
+    {
+      "key": "nightNoDayWorkSwitchSundayWork",
+      "description": "Labour law permit for permanent night shifts on Sundays without alternating back to daytime hours."
+    },
+    {
+      "key": "nightSundayHolidayWork",
+      "description": "Advanced labour law permit authorizing combined night, Sunday, and public holiday work shifts."
+    },
+    {
+      "key": "nightSundayWork",
+      "description": "Labour law permit authorizing standard combined night-shift work and Sunday employment."
+    },
+    {
+      "key": "nightSundayWorkYouth",
+      "description": "Special labour law permit authorizing night and Sunday shifts explicitly for employed minors/youths."
+    },
+    {
+      "key": "nightWork",
+      "description": "Standard labour law permit authorizing employment operations during statutory night-time hours."
+    },
+    {
+      "key": "nightWorkNoDayWorkSwitch",
+      "description": "Labour law permit for permanent night employment executed without alternating back to daytime shifts."
+    },
+    {
+      "key": "nightWorkYouth",
+      "description": "Special labour law permit authorizing statutory night-time work shifts explicitly for employed minors/youths."
+    },
+    {
+      "key": "none",
+      "description": "Insolvency procedure mode indicating that a step is executed without an invitation to the meeting of creditors."
+    },
+    {
+      "key": "notice",
+      "description": "Procedural type for general, informative public announcements and public notifications."
+    },
+    {
+      "key": "officialLiquidation",
+      "description": "Inheritance proceeding in which the estate is subject to official liquidation."
+    },
+    {
+      "key": "onCallNightSundayWork",
+      "description": "Labour law permit authorizing regular on-call readiness duties during night hours and Sundays."
+    },
+    {
+      "key": "onCallNightWork",
+      "description": "Labour law permit authorizing regular on-call readiness duties specifically during statutory night hours."
+    },
+    {
+      "key": "onCallSundayWork",
+      "description": "Labour law permit authorizing regular on-call readiness duties specifically executed on Sundays."
+    },
+    {
+      "key": "ordinary",
+      "description": "Generic classification for an ordinary or standard proceeding, meeting, or procedure."
+    },
+    {
+      "key": "ordinaryCollection",
+      "description": "Debt enforcement type representing standard debt collection proceedings (Ordentliche Betreibung)."
+    },
+    {
+      "key": "ordinaryCollectionSeizureArrest",
+      "description": "Debt enforcement type combining standard collection procedures, asset seizure, and asset freezing orders."
+    },
+    {
+      "key": "organisationalDeficienciesLiquidationOnset",
+      "description": "Corporate register status tracking a forced liquidation opening ordered by a judge due to severe flaws in company organization."
+    },
+    {
+      "key": "other",
+      "description": "Generic security or title classification for an item not covered by the specifically named categories."
+    },
+    {
+      "key": "parishAssembly",
+      "description": "The local assembly of parish members gathered in person to vote on ecclesiastical regulations and church budgets."
+    },
+    {
+      "key": "parliament",
+      "description": "Legislative body operating at the cantonal or higher level responsible for introducing and debating bills."
+    },
+    {
+      "key": "participationCapital",
+      "description": "Corporate equity tracking category focusing specifically on non-voting participation capital."
+    },
+    {
+      "key": "people",
+      "description": "Reference to the electorate or the sovereign voting populace."
+    },
+    {
+      "key": "personal",
+      "description": "Classification for general personnel mutations, corporate management changes, or board re-elections."
+    },
+    {
+      "key": "placeHolder",
+      "description": "System fallback code utilized as a generic placeholder value for undefined entries."
+    },
+    {
+      "key": "pledgeRealization",
+      "description": "Debt enforcement procedure executed via the realization of pledged movable collateral/pawned items (Faustpfand)."
+    },
+    {
+      "key": "popularVote",
+      "description": "The actual public voting procedure or referendum executed at the ballot box."
+    },
+    {
+      "key": "proportionalElection",
+      "description": "Electoral system based on the proportional representation method (Proporz)."
+    },
+    {
+      "key": "protectionPlan",
+      "description": "A spatial planning decree dedicated to nature, landscape, or heritage protection zones."
+    },
+    {
+      "key": "publicEvent",
+      "description": "Public permits, safety guidelines, or informational notices regarding temporary public events, assemblies, or festivals."
+    },
+    {
+      "key": "publicInventory",
+      "description": "Inheritance proceeding involving the preparation of an official public inventory of the estate."
+    },
+    {
+      "key": "publicLaw",
+      "description": "Entities, institutions, or establishments operating under public-law status."
+    },
+    {
+      "key": "publicSafety",
+      "description": "Unilateral emergency orders, danger prevention measures, or temporary prohibitions (e.g., local fire bans or gathering bans)."
+    },
+    {
+      "key": "publicSpace",
+      "description": "Notices regarding the upkeep, infrastructural management, cleaning, or regulation of public land and spaces."
+    },
+    {
+      "key": "purchase",
+      "description": "Property transfer based on a standard commercial contract of purchase and sale."
+    },
+    {
+      "key": "purpose",
+      "description": "Register change category for a change to an entity's stated corporate or organisational purpose."
+    },
+    {
+      "key": "railway",
+      "description": "Infrastructure type for federal railways, local tramways, light rail transit, and track-bound public transit networks."
+    },
+    {
+      "key": "rawMaterial",
+      "description": "Resource usage category dedicated to raw material extraction, quarrying, and mining operations."
+    },
+    {
+      "key": "referendumPetition",
+      "description": "A formal request or petition launched by citizens to demand a popular vote on a decree passed by an authority."
+    },
+    {
+      "key": "regional",
+      "description": "Regional administrative bodies or inter-municipal organizational networks."
+    },
+    {
+      "key": "registeredCapital",
+      "description": "Corporate equity category representing registered or quota capital recorded for an entity."
+    },
+    {
+      "key": "registeredMortgage",
+      "description": "Security instrument representing a registered or named mortgage certificate."
+    },
+    {
+      "key": "renewedRegistration",
+      "description": "Register status category used following a renewed registration of an entity."
+    },
+    {
+      "key": "report",
+      "description": "Corporate governance category dedicated to the publication of the annual report or corporate financial review."
+    },
+    {
+      "key": "reRegistration",
+      "description": "Register status category used following the restoration or re-registration of an entity."
+    },
+    {
+      "key": "resignation",
+      "description": "Public announcement regarding the formal resignation, retirement, or stepping-down of a public official or council member."
+    },
+    {
+      "key": "responsibilityMark",
+      "description": "The core precious metals manufacturer's mark indicating accountability for the standard of fineness (Verantwortlichkeitsmarke)."
+    },
+    {
+      "key": "roadConstruction",
+      "description": "Infrastructure type for public road networks, highway engineering, and structural road building projects."
+    },
+    {
+      "key": "seat",
+      "description": "Register change category for a change to an entity's registered office or legal seat."
+    },
+    {
+      "key": "second",
+      "description": "Procedural sequence value representing the second publication."
+    },
+    {
+      "key": "sectoralPlan",
+      "description": "A federal or cantonal sectoral plan targeting specific infrastructure domains (Sachplan)."
+    },
+    {
+      "key": "securities",
+      "description": "Corporate finance category for announcements regarding the conversion, split, or restructuring of equity shares and securities."
+    },
+    {
+      "key": "securityDepositArrest",
+      "description": "Debt enforcement type for securing monetary values combined with an immediate freezing/arrest order."
+    },
+    {
+      "key": "securityDepositCollection",
+      "description": "Debt enforcement type targeting the collection of a security deposit or monetary performance bond."
+    },
+    {
+      "key": "service",
+      "description": "Classification for general public, commercial, or administrative services."
+    },
+    {
+      "key": "shareCapital",
+      "description": "Corporate equity tracking category focusing specifically on voting share capital."
+    },
+    {
+      "key": "shareCertificate",
+      "description": "Security instrument representing a share certificate or registered share."
+    },
+    {
+      "key": "shareholdingsDisclosure",
+      "description": "Corporate governance category regarding the mandatory public disclosure of significant shareholdings or equity thresholds."
+    },
+    {
+      "key": "shareParticipationCapital",
+      "description": "Corporate equity tracking category combining both voting share capital and non-voting participation capital."
+    },
+    {
+      "key": "sharesCancellation",
+      "description": "Corporate equity modification involving the formal cancellation or invalidation of issued shares or certificates."
+    },
+    {
+      "key": "sharesReduction",
+      "description": "Corporate equity modification involving the structural reduction of share nominal values."
+    },
+    {
+      "key": "ship",
+      "description": "Reference to the official cantonal or federal shipping register."
+    },
+    {
+      "key": "shipping",
+      "description": "Water usage category dedicated to commercial shipping, navigation, and maritime operations on public bodies of water."
+    },
+    {
+      "key": "shippingRegister",
+      "description": "Statutory entries, mutations, or official notices related to the national or cantonal shipping registry."
+    },
+    {
+      "key": "shore",
+      "description": "Spatial zoning designation for protected shorelines, riverbanks, and lake-boundary protection zones."
+    },
+    {
+      "key": "specialAuthority",
+      "description": "Autonomous public-law institution or specialized board with delegated legal authority to issue binding decrees."
+    },
+    {
+      "key": "specialMunicipality",
+      "description": "A specific local-level public-law commune, such as a citizens' commune (Bürgergemeinde) or school commune."
+    },
+    {
+      "key": "specialUsePlan",
+      "description": "A detailed, area-specific statutory zoning plan providing deviations from general land-use rules."
+    },
+    {
+      "key": "structurePlan",
+      "description": "The overarching cantonal master plan coordinating spatial development and infrastructure (Richtplan)."
+    },
+    {
+      "key": "subsurface",
+      "description": "Resource usage category dedicated to deep geothermal energy extraction, excavation, or underground utilization."
+    },
+    {
+      "key": "summary",
+      "description": "Insolvency tracking status indicating that simplified or summary bankruptcy procedures are being applied."
+    },
+    {
+      "key": "summaryBankruptcyProceedings",
+      "description": "Corporate register status tracking the execution of simplified or summary insolvency liquidation procedures."
+    },
+    {
+      "key": "sundayHolidayWork",
+      "description": "Labour law permit authorizing standard employment operations combining Sundays and public holidays."
+    },
+    {
+      "key": "sundayHolidayWorkYouth",
+      "description": "Special labour law permit authorizing combined Sunday and public holiday work explicitly for employed minors/youths."
+    },
+    {
+      "key": "sundayWork",
+      "description": "Labour law permit authorizing standard commercial employment operations to be executed on Sundays."
+    },
+    {
+      "key": "sundayWorkYouth",
+      "description": "Special labour law permit authorizing commercial Sunday shifts explicitly for employed minors/youths."
+    },
+    {
+      "key": "supervisionExemption",
+      "description": "Regulatory status tracking the formal release, dismissal, or exemption of an entity from active financial market supervision."
+    },
+    {
+      "key": "supply",
+      "description": "Procurement classification tracking product delivery tenders, commercial supply contracts, and asset acquisitions."
+    },
+    {
+      "key": "suspensiveBankruptcyLiquidation",
+      "description": "Register status category used when bankruptcy or liquidation proceedings have suspensive effect."
+    },
+    {
+      "key": "synod",
+      "description": "The supreme legislative parliament or official synod of a recognized public-law national church."
+    },
+    {
+      "key": "synodalCommittee",
+      "description": "Special ecclesiastical parliamentary commission appointed by the church synod for specific regulatory tasks."
+    },
+    {
+      "key": "third",
+      "description": "Procedural sequence value representing the third publication."
+    },
+    {
+      "key": "trade",
+      "description": "Regulatory business branch category for retail, wholesale, general commerce, and goods trading operations."
+    },
+    {
+      "key": "trading",
+      "description": "Commercial license category for the professional trading and dealing of banking-grade precious metals."
+    },
+    {
+      "key": "trafficAndSafety",
+      "description": "General, informative notices regarding regional transport infrastructure, generic traffic safety updates, or non-anordnung barriers."
+    },
+    {
+      "key": "transfer",
+      "description": "Miscellaneous forms of property conveyance not covered by standard purchase, gift, or inheritance."
+    },
+    {
+      "key": "transparency",
+      "description": "Classification for statutory reporting obligations regarding ultimate beneficial owners and corporate equity shareholdings."
+    },
+    {
+      "key": "uid",
+      "description": "Register change category for a change to an entity's UID or VAT identification information."
+    },
+    {
+      "key": "unknown",
+      "description": "Classification used when the applicable category or proceeding has not yet been determined."
+    },
+    {
+      "key": "use",
+      "description": "Legal entitlement category for the increased or special utilization of public land and public infrastructure (Sondernutzung)."
+    },
+    {
+      "key": "water",
+      "description": "Legal entitlement category for the formal grant or concession of water rights."
+    },
+    {
+      "key": "waterProtection",
+      "description": "Regulatory classification for water protection zones, drainage areas, and groundwater safety."
+    },
+    {
+      "key": "wildlifeManagement",
+      "description": "Announcements regarding seasonal hunting/fishing quotas, wildlife protection areas, and environmental hunting laws."
+    },
+    {
+      "key": "lawCategory01",
+      "description": "Is category \"1 State - People - Authorities\" of Swiss Interal Law (https://www.fedlex.admin.ch/en/cc/internal-law/1)."
+    },
+    {
+      "key": "lawCategory02",
+      "description": "Is category \"2 Private law - Administration of civil justice - Enforcement\" of Swiss Interal Law (https://www.fedlex.admin.ch/en/cc/internal-law/2)."
+    },
+    {
+      "key": "lawCategory03",
+      "description": "Is category \"3 Criminal law - Administration of criminal justice - Execution of sentences\" of Swiss Interal Law (https://www.fedlex.admin.ch/en/cc/internal-law/3)."
+    },
+    {
+      "key": "lawCategory04",
+      "description": "Is category \"4 Education - Science - Culture\" of Swiss Interal Law (https://www.fedlex.admin.ch/en/cc/internal-law/4)."
+    },
+    {
+      "key": "lawCategory05",
+      "description": "Is category \"5 National defence\" of Swiss Interal Law (https://www.fedlex.admin.ch/en/cc/internal-law/5)."
+    },
+    {
+      "key": "lawCategory06",
+      "description": "Is category \"6 Finance\" of Swiss Interal Law (https://www.fedlex.admin.ch/en/cc/internal-law/6)."
+    },
+    {
+      "key": "lawCategory07",
+      "description": "Is category \"7 Public works - Energy - Transport\" of Swiss Interal Law (https://www.fedlex.admin.ch/en/cc/internal-law/7)."
+    },
+    {
+      "key": "lawCategory08",
+      "description": "Is category \"8 Health - Employment - Social security\" of Swiss Interal Law (https://www.fedlex.admin.ch/en/cc/internal-law/8)."
+    },
+    {
+      "key": "lawCategory09",
+      "description": "Is category \"9 Economy - Technical cooperation\" of Swiss Interal Law (https://www.fedlex.admin.ch/en/cc/internal-law/9)."
+    }
+  ]
+}

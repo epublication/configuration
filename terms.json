@@ -1,0 +1,234 @@
+{
+  "terms": [
+    {
+      "key": "primaryEntityItem",
+      "valueType": "item",
+      "description": "The primarily affected object or matter of the notice represented as an item (e.g., a spatial plan title, a collective agreement name, or a specific piece of property)."
+    },
+    {
+      "key": "primaryEntityPerson",
+      "valueType": "person",
+      "description": "A generic person field used when the primarily affected entity in the title can be either a natural individual or a legal corporation."
+    },
+    {
+      "key": "primaryEntityLegalPerson",
+      "valueType": "legalPerson",
+      "description": "The primarily affected corporate body, company, or organization acting as the main legal entity in the publication title."
+    },
+    {
+      "key": "primaryEntityNaturalPerson",
+      "valueType": "naturalPerson",
+      "description": "The primarily affected individual or human being acting as the main natural person in the publication title."
+    },
+    {
+      "key": "primaryEntityRepresentativePerson",
+      "valueType": "person",
+      "description": "The designated legal representative, liquidator, or administrator of the primarily affected legal entity or debtor."
+    },
+    {
+      "key": "secondaryEntityLegalPerson",
+      "valueType": "legalPerson",
+      "description": "A secondarily affected corporate organization, such as a corporate creditor, claimant, or secondary party to a registry change."
+    },
+    {
+      "key": "secondaryEntityPerson",
+      "valueType": "person",
+      "description": "A secondarily affected party (natural or legal), typically representing a creditor, a co-claimant, or an opposing party in a dispute."
+    },
+    {
+      "key": "secondaryEntityRepresentativePerson",
+      "valueType": "person",
+      "description": "The authorized legal representative or agent of the secondarily affected entity."
+    },
+    {
+      "key": "notice",
+      "valueType": "textarea",
+      "description": "A rich-text or text-area field containing descriptive project information, conditional terms, or additional material text of a notice."
+    },
+    {
+      "key": "businessCaseType",
+      "valueType": "enum",
+      "description": "An attribute list defining the specific sub-category or variant of the business case (e.g., type of plan, type of project, or type of capital reduction)."
+    },
+    {
+      "key": "changeType",
+      "valueType": "enum",
+      "description": "An attribute list identifying the exact nature of a registry mutation, such as a change of corporate name or relocation of a registered office."
+    },
+    {
+      "key": "proceedingType",
+      "valueType": "enum",
+      "description": "An attribute list defining the procedural framework of the case (e.g., summary vs. ordinary bankruptcy proceedings, or specific usage categories)."
+    },
+    {
+      "key": "politicalLevelType",
+      "valueType": "enum",
+      "description": "Refers to the political (federal) level to which the announcement relates."
+    },
+    {
+      "key": "decidingAuthorityType",
+      "valueType": "enum",
+      "description": "A standardized closed attribute list classifying the category of the issuing body (e.g., judicial, executive, or municipal body)."
+    },
+    {
+      "key": "responsibleAuthorityType",
+      "valueType": "enum",
+      "description": "A standardized closed attribute list classifying the category of the executive or administrative authority handling the file."
+    },
+    {
+      "key": "responsibleAuthority",
+      "valueType": "textarea",
+      "description": "The free-text name of the specific department, office, or procurement unit in charge of executing the underlying proceedings."
+    },
+    {
+      "key": "decidingAuthority",
+      "valueType": "textarea",
+      "description": "The free-text name of the specific body, department, or court that officially issued the ruling, order, or decree."
+    },
+    {
+      "key": "requestingAuthority",
+      "valueType": "textarea",
+      "description": "The free-text name of the specific body, department, or court that officially requested a case."
+    },
+    {
+      "key": "applicant",
+      "valueType": "textarea",
+      "description": "The name of a petitioning party or applicant in cases where they are not classified as the primary legal entity of the notice."
+    },
+    {
+      "key": "applicantRepresentative",
+      "valueType": "textarea",
+      "description": "The authorized legal representative, agent, or attorney representing the non-primary applicant."
+    },
+    {
+      "key": "supplier",
+      "valueType": "textarea",
+      "description": "The selling party, transferor, or alienator involved in a property transfer or asset conveyance transaction."
+    },
+    {
+      "key": "recipient",
+      "valueType": "textarea",
+      "description": "The receiving party, buyer, or beneficiary in a structural property transfer or procurement distribution."
+    },
+    {
+      "key": "startDate",
+      "valueType": "date",
+      "description": "The calendar date marking the official commencement, registration, or entry into force of a status, permit, or entry."
+    },
+    {
+      "key": "endDate",
+      "valueType": "date",
+      "description": "The final calendar date marking the expiration, deletion, or formal end of a status, permit, or legal moratorium."
+    },
+    {
+      "key": "dissolutionDate",
+      "valueType": "date",
+      "description": "The precise calendar date on which a legal entity, corporation, or partnership was formally dissolved."
+    },
+    {
+      "key": "resolutionDate",
+      "valueType": "date",
+      "description": "The official calendar date on which a matter, ruling, or decree was formally decided, adopted, or ordered by an authority or voting body."
+    },
+    {
+      "key": "requestDate",
+      "valueType": "date",
+      "description": "The calendar date on which a formal petition, parliamentary motion, or administrative request was officially filed."
+    },
+    {
+      "key": "issueDate",
+      "valueType": "date",
+      "description": "The calendar date on which a specific document, registry daily-journal entry, or title was officially issued."
+    },
+    {
+      "key": "time",
+      "valueType": "stringMultiLang",
+      "description": "A plain-text time field or timestamp utilized for meeting hours, specific deadlines, or extended date remarks."
+    },
+    {
+      "key": "address",
+      "valueType": "address",
+      "description": "A structured postal address formatted in accordance with the official Swiss eCH-0010 standard."
+    },
+    {
+      "key": "coordinates",
+      "valueType": "url",
+      "description": "Geostationary coordinates delivered as a URL or structured string to render points or perimeters on an external mapping system."
+    },
+    {
+      "key": "issueNumber",
+      "valueType": "string",
+      "description": "The official administrative tracking or serial number assigned to a specific daily-journal or registry entry."
+    },
+    {
+      "key": "name",
+      "valueType": "stringMultiLang",
+      "description": "A generic string field used for names, titles of objects, or new naming conventions that do not represent primary entities."
+    },
+    {
+      "key": "previous",
+      "valueType": "stringMultiLang",
+      "description": "A text field or cross-reference key referencing an earlier related publication, prior notice, or previous entry in the system."
+    },
+    {
+      "key": "purpose",
+      "valueType": "textarea",
+      "description": "A text-area field describing the previous or existing statutory purpose of a corporation prior to its mutation or liquidation."
+    },
+    {
+      "key": "seat",
+      "valueType": "string",
+      "description": "The official municipality or political location of a corporation's registered corporate seat."
+    },
+    {
+      "key": "attachedAnnouncement",
+      "valueType": "attachmentMultiLang",
+      "description": "A mandatory attached document (typically PDF) that contains the main body or official legal text of the publication itself."
+    },
+    {
+      "key": "attachment",
+      "valueType": "attachmentMultiLang",
+      "description": "Supplementary files, images, or maps uploaded to support and document the primary structured text of the notice."
+    },
+    {
+      "key": "url",
+      "valueType": "url",
+      "description": "A valid external hyperlink directing users to supplementary dossiers, official external platforms, or complete project files."
+    },
+    {
+      "key": "withdrawalDate",
+      "valueType": "date",
+      "description": "The calendar date on which a specific case has been withdrawn."
+    },
+    {
+      "key": "eventInformation",
+      "valueType": "textarea",
+      "description": "A text-area field with information to an event"
+    },
+    {
+      "key": "environmentalType",
+      "valueType": "enum",
+      "description": "This drop-down menu is used to specify the type of an environmental element,  such as the type of land use."
+    },
+    {
+      "key": "archivingType",
+      "valueType": "enum",
+      "description": "Using this drop-down menu, the publishing entity provides an assessment of whether the announcement is archival."
+    },
+    {
+      "key": "enforcementDate",
+      "valueType": "date",
+      "description": "The date on which a decree or order comes into force"
+    },
+    {
+      "key": "sequenceNumber",
+      "valueType": "string",
+      "description": "A number used to categorise or organise announcements within a particular announcement type, which can be used to sort them in the gazette."
+    },
+    {
+      "key": "lawCategory",
+      "valueType": "enum",
+      "description": "Categories of Swiss Internal Law (1-9)"
+    }
+  ]
+}

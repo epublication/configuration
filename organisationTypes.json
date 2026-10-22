@@ -1,0 +1,148 @@
+{
+  "organisationTypes": [
+    {
+      "key": "insovencyOffice",
+      "label": {
+        "de": "Konkurs-/Betreibungsamt",
+        "fr": "Office des faillites et des poursuites",
+        "it": "Ufficio fallimentare e delle esecuzioni",
+        "en": "Bankruptcy and Debt Enforcement Office"
+      }
+    },
+    {
+      "key": "municipalAdministration",
+      "label": {
+        "de": "Gemeinde-/Stadtverwaltung",
+        "fr": "Administration de la commune/municipale",
+        "it": "Amministrazione del comune/cittadina",
+        "en": "Commune/City Administration"
+      }
+    },
+    {
+      "key": "municipallyOrganisedCommunity",
+      "label": {
+        "de": "Kommunal organisiertes Gemeinwesen",
+        "fr": "Collectivité locale",
+        "it": "Comunità locale organizzata a livello comunale",
+        "en": "Locally organised community"
+      }
+    },
+    {
+      "key": "court",
+      "label": {
+        "de": "Gericht",
+        "fr": "Tribunal",
+        "it": "Tribunale",
+        "en": "Court"
+      }
+    },
+    {
+      "key": "cantonalCommercialRegisterOffice",
+      "label": {
+        "de": "Handelsregisteramt",
+        "fr": "Office du registre du commerce",
+        "it": "Ufficio del registro di commercio",
+        "en": "Commercial Register Office"
+      }
+    },
+    {
+      "key": "cantonalchancellery",
+      "label": {
+        "de": "Staatskanzlei/Landeskanzlei",
+        "fr": "Chancellerie d'État/Chancellerie cantonale",
+        "it": "Cancelleria di Stato/Cancelleria cantonale",
+        "en": "State Chancellery/Cantonal Chancellery"
+      }
+    },
+    {
+      "key": "municipalchancellery",
+      "label": {
+        "de": "Gemeinde-/Stadtkanzlei",
+        "fr": "Secrétariat de la commune",
+        "it": "Segreteria del comune/cittadina",
+        "en": "Municipality/Town Council Office"
+      }
+    },
+    {
+      "key": "cantonalAdministration",
+      "label": {
+        "de": "Weitere kantonale Verwaltung",
+        "fr": "Autres administrations cantonales",
+        "it": "Altre amministrazioni cantonali",
+        "en": "Other cantonal administrative bodies"
+      }
+    },
+    {
+      "key": "federalCommercialRegisterOffice",
+      "label": {
+        "de": "Eidgenössische Amt für das Handelsregister (EHRA)",
+        "fr": "Office fédéral du registre du commerce (OFRC)",
+        "it": "Ufficio federale del registro di commercio (UFRC)",
+        "en": "Federal Office for the Commercial Register (EHRA)"
+      }
+    },
+    {
+      "key": "federalAdministration",
+      "label": {
+        "de": "Bundesverwaltung",
+        "fr": "Administration fédérale",
+        "it": "Amministrazione federale",
+        "en": "Federal Administration"
+      }
+    },
+    {
+      "key": "decentralisedFederalAdministration",
+      "label": {
+        "de": "Dezentrale Bundesverwaltung",
+        "fr": "Administration fédérale décentralisée",
+        "it": "Amministrazione federale decentrata",
+        "en": "Decentralised Federal Administration"
+      }
+    },
+    {
+      "key": "company",
+      "label": {
+        "de": "Unternehmen",
+        "fr": "Entreprises",
+        "it": "Imprese",
+        "en": "Companies"
+      }
+    },
+    {
+      "key": "insolvencyAdministrator",
+      "label": {
+        "de": "Sachwalter/Konkurswalter",
+        "fr": "Administrateur judiciaire/syndic de faillite",
+        "it": "Curatore fallimentare",
+        "en": "Administrator/Insolvency Administrator"
+      }
+    },
+    {
+      "key": "seco",
+      "label": {
+        "de": "Staatssekretariat für Wirtschaft SECO",
+        "fr": "Secrétariat d'État à l'économie (SECO)",
+        "it": "Segretariato di Stato per l'economia SECO",
+        "en": "State Secretariat for Economic Affairs (SECO)"
+      }
+    },
+    {
+      "key": "customs",
+      "label": {
+        "de": "Bundesamt für Zoll und Grenzsicherheit",
+        "fr": "Office fédéral de la douane et de la sécurité des frontières",
+        "it": "Ufficio federale della dogana e della sicurezza dei confini",
+        "en": "Federal Office for Customs and Border Security"
+      }
+    },
+    {
+      "key": "general",
+      "label": {
+        "de": "Alle Meldungstypen",
+        "fr": "Tous les types d'annonces",
+        "it": "Tutti i tipi di pubblicazione",
+        "en": "All announcement types"
+      }
+    }
+  ]
+}

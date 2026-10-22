@@ -1,0 +1,124 @@
+{
+  "topics": [
+    {
+      "key": "government",
+      "label": {
+        "de": "Politik, Staat und Wahlen",
+        "fr": "Politique, État et élections",
+        "it": "Politica, Stato ed elezioni",
+        "en": "Politics, Government and Elections"
+      },
+      "description": "This topic covers announcements relating to democratic processes, legislation and official orders. It includes parliamentary and government affairs, legislation and decrees, referendums, votes, elections and official orders."
+    },
+    {
+      "key": "citizenship",
+      "label": {
+        "de": "Aufenthalt, Bürgerrecht und Personenstand",
+        "fr": "Séjour, droit de cité et état civil",
+        "it": "Soggiorno, cittadinanza e stato civile",
+        "en": "Residence, Citizenship and Civil Status"
+      },
+      "description": "This topic covers announcements on legal identity, civil status and the status of individuals in relation to the state. It includes naturalisation procedures, residence permits, name changes and official announcements regarding changes in civil status."
+    },
+    {
+      "key": "employment",
+      "label": {
+        "de": "Arbeit, Bildung und Beschaffung",
+        "fr": "Travail, formation et marchés publics",
+        "it": "Lavoro, istruzione e appalti",
+        "en": "Work, Education and Procurement"
+      },
+      "description": "This topic covers announcements on the labour market, professional licences and public procurement. It includes the declaration of collective labour agreements as generally binding, working time permits, labour market monitoring, entries in the register of lawyers or notaries, as well as tenders and awards in public procurement."
+    },
+    {
+      "key": "social",
+      "label": {
+        "de": "Gesundheit und Soziales",
+        "fr": "Santé et affaires sociales",
+        "it": "Salute e affari sociali",
+        "en": "Health and social affairs"
+      },
+      "description": "This topic covers announcements on public health, social security and the protection of individuals. It includes child and adult protection (KESB), notices regarding foodstuffs and consumer goods, as well as official measures by authorities in the healthcare sector."
+    },
+    {
+      "key": "estate",
+      "label": {
+        "de": "Verschollenheit, Ableben und Erbschaft",
+        "fr": "Personnes disparues, décès et succession",
+        "it": "Persone scomparse, decesso ed eredità",
+        "en": "Missing persons, death and inheritance"
+      },
+      "description": "This topic covers announcements regarding the legal consequences of death and the settlement of estates. It includes inheritance law and probate proceedings, funeral services, inventories, and judicial edictal proceedings for missing persons."
+    },
+    {
+      "key": "corporate",
+      "label": {
+        "de": "Handelsregister, Unternehmensrecht und Liquidation",
+        "fr": "Registre du commerce, droit des sociétés et liquidation",
+        "it": "Registro di commercio, diritto societario e liquidazione",
+        "en": "Commercial register, company law and liquidation"
+      },
+      "description": "This topic covers announcements relating to the life cycle of companies, their legal organisation and orderly dissolution. It includes commercial register entries, deficiencies in organisation, calls for claims (in the event of a merger or capital change), liquidation proceedings, lost securities and invitations to shareholders’ meetings."
+    },
+    {
+      "key": "insolvency",
+      "label": {
+        "de": "Schuldbetreibung und Konkurs",
+        "fr": "Poursuite pour dettes et faillite",
+        "it": "Esecuzione e fallimento",
+        "en": "Debt enforcement and bankruptcy"
+      },
+      "description": "This topic covers announcements regarding the enforcement of monetary claims and the administration of insolvency proceedings. It includes the opening of bankruptcy proceedings, the service of debt enforcement documents, the realisation of assets, debt moratoriums, calls for claims in insolvency proceedings, and the status of bankruptcy proceedings."
+    },
+    {
+      "key": "finance",
+      "label": {
+        "de": "Steuern, Finanzen und Finanzmarkt",
+        "fr": "Impôts, finances et marché financier",
+        "it": "Imposte, finanze e mercato finanziario",
+        "en": "Taxation, finance and financial markets"
+      },
+      "description": "This topic covers announcements relating to tax obligations and state supervision of the financial and insurance sectors. It includes information on tax obligations and deadlines, tax rulings, notifications to unit-holders of collective investment schemes, insurance operations, and liquidation proceedings of financial institutions."
+    },
+    {
+      "key": "market",
+      "label": {
+        "de": "Schutzrechte, Waren und Wettbewerb",
+        "fr": "Droits de propriété intellectuelle, marchandises et concurrence",
+        "it": "Diritti di proprietà intellettuale, merci e concorrenza",
+        "en": "Intellectual property rights, goods and competition"
+      },
+      "description": "This topic covers announcements relating to the protection of intellectual property, goods control and the monitoring of fair market competition. It includes announcements concerning intellectual property (patents/trademarks), precious metals control, the ship register, the aircraft register, and announcements from the Competition Commission (WEKO)."
+    },
+    {
+      "key": "property",
+      "label": {
+        "de": "Grundbuch, Liegenschaften und Räumung",
+        "fr": "Registre foncier, biens immobiliers et expulsion",
+        "it": "Catasto, beni immobili e sgombero",
+        "en": "Land register, property and eviction"
+      },
+      "description": "This topic covers announcements regarding fundamental rights, property transactions and court orders relating to real estate. It includes changes of ownership, land registry entries, official surveying, court injunctions, evictions and the return of properties."
+    },
+    {
+      "key": "infrastructure",
+      "label": {
+        "de": "Bau, Umwelt, Verkehr und Raumplanung",
+        "fr": "Construction, environnement, transports et aménagement du territoire",
+        "it": "Edilizia, ambiente, trasporti e pianificazione del territorio",
+        "en": "Construction, environment, transport and spatial planning"
+      },
+      "description": "This topic covers announcements regarding the physical design of the living environment, infrastructure and the protection of natural resources. It includes private construction projects, planning proposals, infrastructure projects, national road construction, environmental and land use, traffic regulations, licences, special uses and the preservation of historic buildings."
+    },
+    {
+      "key": "justice",
+      "label": {
+        "de": "Strafrecht und Vollzug",
+        "fr": "Droit pénal et exécution des peines",
+        "it": "Diritto penale ed esecuzione penale",
+        "en": "Criminal law and enforcement"
+      },
+      "description": "This topic covers announcements regarding criminal court judgements and security police sanctions. It includes criminal law announcements, the enforcement of sentences and administrative measures relating to road traffic."
+    }
+  ]
+}
