@@ -1,13 +1,13 @@
 # ePublication configuration
 
-This repository contains the master announcement types of ePublication and the catalogs of business cases, elements, selection values, topics and organisation types that they are built from.
+This repository contains the master announcement types of ePublication and the catalogs of business cases, elements, selection values (enums), topics and organisation types that they are built from.
 
 The master announcement types are defined by the provider. Editors adopt them for their gazettes and adapt them where needed.
 
 > [!NOTE]
 > The principle behind the master announcement types (the roles of provider, editor and publishing entity, and a glossary of the main terms) is explained in the [ePublication overview](https://github.com/epublication/epublication).
 >
-> Information about the API can be found in the [API repository](https://github.com/epublication/epublication-api).
+> There is no public API for the master announcement types. They can only be changed by the provider, and the same applies to the catalogs they are built from. The adaptations that editors make for their own gazettes are not part of this repository. Further informations on the public API can be found in the [API repository](https://github.com/epublication/epublication-api).
 
 ## Contents
 
@@ -21,7 +21,6 @@ The master announcement types are defined by the provider. Editors adopt them fo
 | [`organisationTypes.json`](organisationTypes.json) | Catalog of organisation types |
 | [`meta.json`](meta.json) | Export date and version of this configuration |
 
-The adaptations that editors make for their own gazettes are not part of this repository.
 
 ## How the files fit together
 
@@ -39,7 +38,7 @@ flowchart LR
 
 The catalogs define the keys and their meaning. Where the display labels are kept differs between the catalogs:
 
-- **Business cases, elements and selection values** have only a key and a description in their catalog. Their labels are defined in each announcement type. The same key can therefore appear under different labels: the business case `application`, for example, is labelled «Baugesuch» (building permit application) in one announcement type and «Einbürgerungsgesuch» (naturalisation application) in another.
+- **Business cases, elements and selection values (enums)** have only a key and a description in their catalog. Their labels are defined in each announcement type. The same key can therefore appear under different labels: the business case `application`, for example, is labelled «Baugesuch» (building permit application) in one announcement type and «Einbürgerungsgesuch» (naturalisation application) in another.
 - **Topics and organisation types** carry their labels in the catalog itself, so they have the same label wherever they are used.
 
 ## Conventions
@@ -114,32 +113,10 @@ Each entry in `elements` describes one content element of the announcement type.
 | `valueTypeConfig` | object | Optional settings that depend on the value type, see below |
 | `defaultValue` | string | Optional default value. For selection lists, the key of a selection value. |
 
-`valueTypeConfig` currently occurs in two forms:
-
-- **`enum` elements** have a list `values` with the selection values available in this announcement type. Each value has a `key` (see [`enumValues.json`](#enumvaluesjson)) and a multilingual `label`.
-- **`item` elements** can have `enableAddress`, which defines whether an address can be entered for the item.
-
-```json
-{
-  "key": "businessCaseType",
-  "label": { "de": "Thema der Bekanntmachung", "fr": "Objet de l'avis", "it": "Oggetto del bando", "en": "Subject of the notice" },
-  "mandatory": true,
-  "multiple": false,
-  "isPartOfTitle": true,
-  "valueTypeConfig": {
-    "values": [
-      { "key": "jobPosting", "label": { "de": "Stelleninserat", "fr": "Offre d'emploi", "it": "Annuncio di lavoro", "en": "Job vacancy" } },
-      { "key": "publicEvent", "label": { "de": "Öffentlicher Anlass", "fr": "Événement public", "it": "Evento pubblico", "en": "Public event" } }
-    ]
-  }
-}
-```
-
-*Shortened excerpt from announcement type 101.*
 
 ## `terms.json`
 
-The announcement element catalog. Each entry has a `key`, a `valueType` and a `description`.
+The announcement element catalog. Each entry has a `key`, a `valueType` and a `description`. The following ValueTypes are used:  
 
 | Value type | Content |
 |---|---|
@@ -154,7 +131,8 @@ The announcement element catalog. Each entry has a `key`, a `valueType` and a `d
 | `naturalPerson` | Natural person |
 | `legalPerson` | Legal person |
 | `item` | Object or matter, e.g. the title of a spatial plan |
-| `attachmentMultiLang` | File attachment with language versions |
+| `attachmentLinked` | Attachment that provides additional information relating to an announcement - for example a construction plan. |
+| `attachmentEmbedded` | Attachment whose content is embedded in the generated Complete Issue PDF - for example a new document of legislation. |
 
 ## `businessCases.json`
 
