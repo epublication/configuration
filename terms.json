@@ -152,7 +152,7 @@
     },
     {
       "key": "coordinates",
-      "valueType": "url",
+      "valueType": "textarea",
       "description": "Geostationary coordinates delivered as a URL or structured string to render points or perimeters on an external mapping system."
     },
     {
@@ -181,13 +181,8 @@
       "description": "The official municipality or political location of a corporation's registered corporate seat."
     },
     {
-      "key": "attachedAnnouncement",
-      "valueType": "attachmentMultiLang",
-      "description": "A mandatory attached document (typically PDF) that contains the main body or official legal text of the publication itself."
-    },
-    {
-      "key": "attachment",
-      "valueType": "attachmentMultiLang",
+      "key": "linkedAttachment",
+      "valueType": "attachmentLinked",
       "description": "Supplementary files, images, or maps uploaded to support and document the primary structured text of the notice."
     },
     {
@@ -229,6 +224,16 @@
       "key": "lawCategory",
       "valueType": "enum",
       "description": "Categories of Swiss Internal Law (1-9)"
+    },
+    {
+      "key": "code13",
+      "valueType": "string",
+      "description": "Is the D-U-N-S number (Data Universal Numbering System) is a globally unique, nine-digit identification code for companies, issued by the credit reference agency Dun & Bradstreet (D&B). In Zefix mentioned as CH-ID."
+    },
+    {
+      "key": "embeddedAttachment",
+      "valueType": "attachmentEmbedded",
+      "description": "A mandatory attached document (typically PDF) that contains the main body or official legal text of the publication itself."
     }
   ]
 }

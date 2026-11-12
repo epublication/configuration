@@ -130,7 +130,7 @@
           }
         },
         {
-          "key": "attachment",
+          "key": "linkedAttachment",
           "label": {
             "de": "Anhang zur Meldung",
             "fr": "Annexe à l’annonce",
@@ -502,7 +502,7 @@
           }
         },
         {
-          "key": "attachment",
+          "key": "linkedAttachment",
           "label": {
             "de": "Anhang zur Meldung",
             "fr": "Annexe à l’annonce",
@@ -1008,7 +1008,7 @@
           }
         },
         {
-          "key": "attachment",
+          "key": "linkedAttachment",
           "label": {
             "de": "Anhang zur Meldung",
             "fr": "Annexe à l’annonce",
@@ -1025,6 +1025,26 @@
             "fr": "Document supplémentaire (image ou PDF) fournissant des informations complémentaires à l'annonce.",
             "it": "Documento aggiuntivo (immagine o PDF) a titolo di informazione supplementare all'annuncio.",
             "en": "Additional document (image or PDF) providing further information relating to the announcement."
+          }
+        },
+        {
+          "key": "embeddedAttachment",
+          "label": {
+            "de": "Meldung als Anhang",
+            "fr": "Meldung als Anhang",
+            "it": "Meldung als Anhang",
+            "en": "Meldung als Anhang"
+          },
+          "mandatory": false,
+          "multiple": true,
+          "isPartOfTitle": false,
+          "hiddenOnView": false,
+          "hideLabel": false,
+          "description": {
+            "de": "A mandatory attached document (typically PDF) that contains the main body or official legal text of the publication itself.",
+            "fr": "A mandatory attached document (typically PDF) that contains the main body or official legal text of the publication itself.",
+            "it": "A mandatory attached document (typically PDF) that contains the main body or official legal text of the publication itself.",
+            "en": "A mandatory attached document (typically PDF) that contains the main body or official legal text of the publication itself."
           }
         },
         {
@@ -1834,7 +1854,7 @@
           }
         },
         {
-          "key": "attachedAnnouncement",
+          "key": "embeddedAttachment",
           "label": {
             "de": "Meldung als Anhang",
             "fr": "Annonce en pièce jointe",
@@ -2422,7 +2442,7 @@
           }
         },
         {
-          "key": "attachment",
+          "key": "linkedAttachment",
           "label": {
             "de": "Anhang zur Meldung",
             "fr": "Annexe à l’annonce",
@@ -3083,27 +3103,7 @@
           }
         },
         {
-          "key": "attachedAnnouncement",
-          "label": {
-            "de": "Meldung als Anhang",
-            "fr": "Annonce en pièce jointe",
-            "it": "Annuncio in allegato",
-            "en": "Announcement as an attachment"
-          },
-          "mandatory": false,
-          "multiple": true,
-          "isPartOfTitle": false,
-          "hiddenOnView": false,
-          "hideLabel": false,
-          "description": {
-            "de": "Ein PDF mit dem Inhalt der Meldung. Wird auch in Gesamtaufgabe aufgenommen, falls eine solche generiert wird.",
-            "fr": "Un fichier PDF contenant le contenu de l'annonce. Il est également inclus dans l'édition complète, si celle-ci est générée.",
-            "it": "Un file PDF contenente il testo dell'annuncio. Verrà incluso anche nell'edizione completa, qualora questa venga generata.",
-            "en": "A PDF containing the text of the announcement. This is also included in the complete issue, if one is generated."
-          }
-        },
-        {
-          "key": "attachment",
+          "key": "linkedAttachment",
           "label": {
             "de": "Anhang zur Meldung",
             "fr": "Annexe à l’annonce",
@@ -3120,6 +3120,26 @@
             "fr": "Document supplémentaire (image ou PDF) fournissant des informations complémentaires à l'annonce.",
             "it": "Documento aggiuntivo (immagine o PDF) a titolo di informazione supplementare all'annuncio.",
             "en": "Additional document (image or PDF) providing further information relating to the announcement."
+          }
+        },
+        {
+          "key": "embeddedAttachment",
+          "label": {
+            "de": "Meldung als Anhang",
+            "fr": "Annonce en pièce jointe",
+            "it": "Annuncio in allegato",
+            "en": "Announcement as an attachment"
+          },
+          "mandatory": false,
+          "multiple": true,
+          "isPartOfTitle": false,
+          "hiddenOnView": false,
+          "hideLabel": false,
+          "description": {
+            "de": "Ein PDF mit dem Inhalt der Meldung. Wird auch in Gesamtaufgabe aufgenommen, falls eine solche generiert wird.",
+            "fr": "Un fichier PDF contenant le contenu de l'annonce. Il est également inclus dans l'édition complète, si celle-ci est générée.",
+            "it": "Un file PDF contenente il testo dell'annuncio. Verrà incluso anche nell'edizione completa, qualora questa venga generata.",
+            "en": "A PDF containing the text of the announcement. This is also included in the complete issue, if one is generated."
           }
         },
         {
@@ -3620,7 +3640,7 @@
           }
         },
         {
-          "key": "attachment",
+          "key": "linkedAttachment",
           "label": {
             "de": "Anhang zur Meldung",
             "fr": "Annexe à l’annonce",
@@ -3637,6 +3657,26 @@
             "fr": "Document supplémentaire (image ou PDF) fournissant des informations complémentaires à l'annonce.",
             "it": "Documento aggiuntivo (immagine o PDF) a titolo di informazione supplementare all'annuncio.",
             "en": "Additional document (image or PDF) providing further information relating to the announcement."
+          }
+        },
+        {
+          "key": "embeddedAttachment",
+          "label": {
+            "de": "Meldung als Anhang",
+            "fr": "Annonce en pièce jointe",
+            "it": "Annuncio in allegato",
+            "en": "Announcement as an attachment"
+          },
+          "mandatory": false,
+          "multiple": true,
+          "isPartOfTitle": false,
+          "hiddenOnView": false,
+          "hideLabel": false,
+          "description": {
+            "de": "A mandatory attached document (typically PDF) that contains the main body or official legal text of the publication itself.",
+            "fr": "A mandatory attached document (typically PDF) that contains the main body or official legal text of the publication itself.",
+            "it": "A mandatory attached document (typically PDF) that contains the main body or official legal text of the publication itself.",
+            "en": "A mandatory attached document (typically PDF) that contains the main body or official legal text of the publication itself."
           }
         },
         {
@@ -4169,7 +4209,7 @@
           }
         },
         {
-          "key": "attachment",
+          "key": "linkedAttachment",
           "label": {
             "de": "Anhang zur Meldung",
             "fr": "Annexe à l’annonce",
@@ -4545,7 +4585,7 @@
           }
         },
         {
-          "key": "attachment",
+          "key": "linkedAttachment",
           "label": {
             "de": "Anhang zur Meldung",
             "fr": "Annexe à l’annonce",
@@ -5227,7 +5267,7 @@
           }
         },
         {
-          "key": "attachment",
+          "key": "linkedAttachment",
           "label": {
             "de": "Anhang zur Meldung",
             "fr": "Annexe à l’annonce",
@@ -5716,7 +5756,7 @@
           }
         },
         {
-          "key": "attachment",
+          "key": "linkedAttachment",
           "label": {
             "de": "Anhang zur Meldung",
             "fr": "Annexe à l’annonce",
@@ -6103,7 +6143,7 @@
           }
         },
         {
-          "key": "attachment",
+          "key": "linkedAttachment",
           "label": {
             "de": "Anhang zur Meldung",
             "fr": "Annexe à l’annonce",
@@ -6769,7 +6809,7 @@
           }
         },
         {
-          "key": "attachment",
+          "key": "linkedAttachment",
           "label": {
             "de": "Anhang zur Meldung",
             "fr": "Annexe à l’annonce",
@@ -7216,7 +7256,7 @@
           }
         },
         {
-          "key": "attachment",
+          "key": "linkedAttachment",
           "label": {
             "de": "Anhang zur Meldung",
             "fr": "Annexe à l’annonce",
@@ -7740,67 +7780,11 @@
             "it": "In questo caso vengono pubblicate informazioni su «Trasferimento di proprietà».",
             "en": "In this case, information about “Change of ownership” is published."
           },
-          "hasLegalBlock": true,
-          "legalNoticeDefault": {
-            "label": {
-              "de": "Rechtlicher Hinweis",
-              "fr": "Remarque légale",
-              "it": "Indicazione legale",
-              "en": "Legal Remedy"
-            },
-            "description": {
-              "de": "Hier kann der rechtliche Hinweis für diesen Geschäftsfall abgefüllt werden.",
-              "fr": "C'est ici que peuvent être renseignées les remarques légales relatives à cette catégorie.",
-              "it": "Qui è possibile inserire le indicazioni legali relative alla categoria in questione.",
-              "en": "The legal remark for this business case can be entered here."
-            }
-          },
-          "setContactDefault": true,
-          "deadlines": [
-            {
-              "label": {
-                "de": "Frist",
-                "fr": "Délai",
-                "it": "Termine",
-                "en": "Deadline"
-              },
-              "description": {
-                "de": "Das ist ein Textfeld um die Frist zu beschreiben.",
-                "fr": "Il s'agit d'un champ de texte permettant de décrire le délai.",
-                "it": "Questo è un campo di testo in cui inserire la descrizione del termine.",
-                "en": "This is a text field for describing the deadline."
-              },
-              "deadlineDefault": {
-                "type": "DATE"
-              }
-            }
-          ]
+          "hasLegalBlock": false,
+          "setContactDefault": false
         }
       ],
       "elements": [
-        {
-          "key": "primaryEntityItem",
-          "label": {
-            "de": "Angaben zum Eigentum",
-            "fr": "Données relatives à la propriété",
-            "it": "Dati relativi alla proprietà",
-            "en": "Details of ownership"
-          },
-          "mandatory": true,
-          "multiple": false,
-          "isPartOfTitle": true,
-          "hiddenOnView": false,
-          "hideLabel": true,
-          "description": {
-            "de": "Die individuelle deutsche Beschreibung dieses Elements folgt.",
-            "fr": "La description en français de cet élément suit.",
-            "it": "Di seguito è riportata la descrizione specifica in italiano di questo elemento.",
-            "en": "The individual description of this element in English follows."
-          },
-          "valueTypeConfig": {
-            "enableAddress": false
-          }
-        },
         {
           "key": "businessCaseType",
           "label": {
@@ -7889,6 +7873,29 @@
           }
         },
         {
+          "key": "primaryEntityItem",
+          "label": {
+            "de": "Angaben zum Eigentum",
+            "fr": "Données relatives à la propriété",
+            "it": "Dati relativi alla proprietà",
+            "en": "Details of ownership"
+          },
+          "mandatory": true,
+          "multiple": false,
+          "isPartOfTitle": true,
+          "hiddenOnView": false,
+          "hideLabel": true,
+          "description": {
+            "de": "Die individuelle deutsche Beschreibung dieses Elements folgt.",
+            "fr": "La description en français de cet élément suit.",
+            "it": "Di seguito è riportata la descrizione specifica in italiano di questo elemento.",
+            "en": "The individual description of this element in English follows."
+          },
+          "valueTypeConfig": {
+            "enableAddress": false
+          }
+        },
+        {
           "key": "coordinates",
           "label": {
             "de": "Koordinaten",
@@ -7917,7 +7924,7 @@
             "en": "Seller"
           },
           "mandatory": false,
-          "multiple": false,
+          "multiple": true,
           "isPartOfTitle": false,
           "hiddenOnView": false,
           "hideLabel": false,
@@ -7957,7 +7964,7 @@
             "en": "Purchaser"
           },
           "mandatory": false,
-          "multiple": false,
+          "multiple": true,
           "isPartOfTitle": false,
           "hiddenOnView": false,
           "hideLabel": false,
@@ -9759,7 +9766,7 @@
           }
         },
         {
-          "key": "attachment",
+          "key": "linkedAttachment",
           "label": {
             "de": "Anhang zur Meldung",
             "fr": "Annexe à l’annonce",
@@ -10042,7 +10049,7 @@
           }
         },
         {
-          "key": "attachment",
+          "key": "linkedAttachment",
           "label": {
             "de": "Anhang zur Meldung",
             "fr": "Annexe à l’annonce",
@@ -10740,7 +10747,7 @@
           }
         },
         {
-          "key": "attachment",
+          "key": "linkedAttachment",
           "label": {
             "de": "Anhang zur Meldung",
             "fr": "Annexe à l’annonce",
@@ -11467,7 +11474,7 @@
           }
         },
         {
-          "key": "attachment",
+          "key": "linkedAttachment",
           "label": {
             "de": "Anhang zur Meldung",
             "fr": "Annexe à l’annonce",
@@ -17991,7 +17998,7 @@
                 "en": "This is a text field for describing the deadline."
               },
               "deadlineDefault": {
-                "type": "DATE"
+                "type": "NOINFO"
               }
             }
           ]
@@ -18041,7 +18048,7 @@
                 "en": "This is a text field for describing the deadline."
               },
               "deadlineDefault": {
-                "type": "DATE"
+                "type": "NOINFO"
               }
             }
           ]
@@ -18091,7 +18098,7 @@
                 "en": "This is a text field for describing the deadline."
               },
               "deadlineDefault": {
-                "type": "DATE"
+                "type": "NOINFO"
               }
             }
           ]
@@ -18107,7 +18114,7 @@
             "en": "Type of change"
           },
           "mandatory": false,
-          "multiple": false,
+          "multiple": true,
           "isPartOfTitle": true,
           "hiddenOnView": false,
           "hideLabel": true,
@@ -18471,6 +18478,26 @@
             "fr": "La description en français de cet élément suit.",
             "it": "Di seguito è riportata la descrizione specifica in italiano di questo elemento.",
             "en": "The individual description of this element in English follows."
+          }
+        },
+        {
+          "key": "code13",
+          "label": {
+            "de": "CH-ID",
+            "fr": "CH-ID",
+            "it": "CH-ID",
+            "en": "CH-ID"
+          },
+          "mandatory": false,
+          "multiple": false,
+          "isPartOfTitle": false,
+          "hiddenOnView": true,
+          "hideLabel": false,
+          "description": {
+            "de": "Die D-U-N-S-Nummer (Data Universal Numbering System) ist ein weltweit eindeutiger, neunstelliger Identifikationscode für Unternehmen, der vom Wirtschaftsauskunftei-Unternehmen Dun & Bradstreet (D&B) vergeben wird.",
+            "fr": "Le numéro D-U-N-S (Data Universal Numbering System) est un code d'identification unique au monde, composé de neuf chiffres, attribué aux entreprises par l'agence de renseignements commerciaux Dun & Bradstreet (D&B).",
+            "it": "Il numero D-U-N-S (Data Universal Numbering System) è un codice identificativo univoco a livello mondiale, composto da nove cifre assegnato alle imprese dall'agenzia di informazioni commerciali Dun & Bradstreet (D&B).",
+            "en": "Is the D-U-N-S number (Data Universal Numbering System) is a globally unique, nine-digit identification code for companies, issued by the credit reference agency Dun & Bradstreet (D&B). In Zefix mentioned as CH-ID."
           }
         },
         {
@@ -19828,7 +19855,7 @@
           }
         },
         {
-          "key": "attachment",
+          "key": "linkedAttachment",
           "label": {
             "de": "Anhang zur Meldung",
             "fr": "Annexe à l’annonce",
@@ -20146,7 +20173,7 @@
           }
         },
         {
-          "key": "attachment",
+          "key": "linkedAttachment",
           "label": {
             "de": "Anhang zur Meldung",
             "fr": "Annexe à l’annonce",
